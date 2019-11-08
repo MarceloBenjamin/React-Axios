@@ -5,11 +5,12 @@ export const Container = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-color: #f1f1f1;
+  background-color: #e8e8e8;
+  padding-bottom: 10px;
 `;
 
 export const Title = styled.h1`
-  color: crimson;
+  color: #800000;
   text-align: center;
   margin: 0;
   margin-top: 30px;
@@ -19,7 +20,8 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
   margin: 0;
   font-size: 13px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
+  color: #404040;
 `;
 
 export const FlexGrid = styled.div`
@@ -29,19 +31,22 @@ export const FlexGrid = styled.div`
   justify-content: center;
   max-width: 95%;
   width: 100%;
+  margin-bottom: 50px;
 `;
 
 export const Box = styled.div`
   width: 190px;
   height: 220px;
-  margin: 5px;
-  border: 2px;
+  margin: 12px;
+  border: 1px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   border-style: solid;
   border-color: white;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #f1f1f1;
 `;
 
 export const ContainerTitle = styled.div`
@@ -65,11 +70,14 @@ export const ContainerSubTitle = styled.div`
 export const Texto = styled.p`
   font-size: 10pt;
   margin: 0;
+  color: #800000;
+  font-weight: bold;
 `;
 
 export const SubTexto = styled.p`
   font-size: 9pt;
   margin: 0;
+  color: #404040;
 `;
 
 export const Imagem = styled.img`
@@ -77,4 +85,11 @@ export const Imagem = styled.img`
   width: 80%;
   height: auto;
   max-height: 50%;
+`;
+
+export const TextBottom = styled.p`
+  margin: 5px;
+  font-size: 10pt;
+  color: #404040;
+  font-style: italic;
 `;
