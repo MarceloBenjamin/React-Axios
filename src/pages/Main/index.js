@@ -3,7 +3,18 @@ import axios from "axios";
 
 import "./css.css";
 
-import { Container, Title } from "./styles";
+import {
+  Container,
+  FlexGrid,
+  Title,
+  Box,
+  Texto,
+  Imagem,
+  ContainerTitle,
+  SubTitle,
+  ContainerSubTitle,
+  SubTexto
+} from "./styles";
 
 export default function Main() {
   const [paises, setPaises] = useState([]);
@@ -18,12 +29,25 @@ export default function Main() {
 
   return (
     <Container>
-      <Title>Página Main</Title>
-      <ul>
+      <Title>Todos os Países</Title>
+      <SubTitle>
+        Nesta lista contém o nome, a bandeira e o nome nativo dos países.
+      </SubTitle>
+      <FlexGrid>
         {paises.map((country, index) => (
-          <li key={index}>{country.name}</li>
+          <Box key={index}>
+            <ContainerTitle>
+              <Texto>
+                {country.name} - {country.alpha3Code}
+              </Texto>
+            </ContainerTitle>
+            <Imagem src={country.flag} />
+            <ContainerSubTitle>
+              <SubTexto>{country.nativeName}</SubTexto>
+            </ContainerSubTitle>
+          </Box>
         ))}
-      </ul>
+      </FlexGrid>
     </Container>
   );
 }
