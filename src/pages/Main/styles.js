@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   text-align: center;
   background-color: #e8e8e8;
-  padding-bottom: 10px;
+  padding-bottom: 25px;
 `;
 
 export const Title = styled.h1`
@@ -85,11 +85,4 @@ export const Imagem = styled.img`
   width: 80%;
   height: auto;
   max-height: 50%;
-`;
-
-export const TextBottom = styled.p`
-  margin: 5px;
-  font-size: 10pt;
-  color: #404040;
-  font-style: italic;
 `;

@@ -13,9 +13,10 @@ import {
   ContainerTitle,
   SubTitle,
   ContainerSubTitle,
-  SubTexto,
-  TextBottom
+  SubTexto
 } from "./styles";
+
+import Rodape from "../../components/Rodape/index";
 
 export default function Main() {
   const [paises, setPaises] = useState([]);
@@ -49,13 +50,7 @@ export default function Main() {
           </Box>
         ))}
       </FlexGrid>
-      <TextBottom>
-        Dados sobre os países recebidos da API
-        https://restcountries.eu/rest/v2/all
-      </TextBottom>
-      <TextBottom>
-        Desenvolvido para fins de estudo por Marcelo Benjamin
-      </TextBottom>
+      <Rodape />
     </Container>
   );
 }
