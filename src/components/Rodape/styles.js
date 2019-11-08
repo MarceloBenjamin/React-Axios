@@ -31,7 +31,9 @@ export const Link = styled.a`
   color: #404040;
   margin-left: 5px;
   margin-right: 5px;
+  font-size: 25px;
   &:hover {
+    font-size: 30px;
     color: #3c5064;
     cursor: pointer;
   }

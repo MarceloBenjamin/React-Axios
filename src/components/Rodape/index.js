@@ -25,22 +25,22 @@ export default function Rodape() {
           href="https://api.whatsapp.com/send?phone=5561986638953&text=Ol%C3%A1%20Marcelo%2C%20podemos%20conversar%3F"
           target="_blank"
         >
-          <FaWhatsapp size="25" />
+          <FaWhatsapp />
         </Link>
         <Link>
-          <FaFacebookMessenger size="25" />
+          <FaFacebookMessenger />
         </Link>
         <Link>
-          <FaLinkedin size="25" />
+          <FaLinkedin />
         </Link>
         <Link>
-          <FaGithub size="25" />
+          <FaGithub />
         </Link>
         <Link>
-          <FaBehance size="25" />
+          <FaBehance />
         </Link>
         <Link>
-          <MdEmail size="25" />
+          <MdEmail />
         </Link>
       </ContainerIcons>
     </div>

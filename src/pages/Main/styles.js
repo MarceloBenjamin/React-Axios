@@ -35,9 +35,9 @@ export const FlexGrid = styled.div`
 `;
 
 export const Box = styled.div`
-  width: 190px;
-  height: 220px;
-  margin: 12px;
+  width: 160px;
+  height: 180px;
+  margin: 9px;
   border: 1px;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
   border-style: solid;
@@ -47,6 +47,11 @@ export const Box = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: #f1f1f1;
+  &:hover {
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
+    width: 165px;
+    height: 185px;
+  }
 `;
 
 export const ContainerTitle = styled.div`
@@ -55,7 +60,7 @@ export const ContainerTitle = styled.div`
   justify-content: center;
   align-items: center;
   width: 100%;
-  max-width: 95%;
+  max-width: 100%;
   height: 45px;
   padding: 3%;
 `;
@@ -85,4 +90,7 @@ export const Imagem = styled.img`
   width: 80%;
   height: auto;
   max-height: 50%;
+  border: 1px;
+  border-style: solid;
+  border-color: #fff;
 `;
