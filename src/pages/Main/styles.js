@@ -20,7 +20,7 @@ export const Title = styled.h1`
 export const SubTitle = styled.h2`
   margin: 0;
   font-size: 13px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   color: #404040;
 `;
 
@@ -51,6 +51,9 @@ export const Box = styled.div`
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.1);
     width: 165px;
     height: 185px;
+    margin-bottom: 4px;
+    margin-right: 6px;
+    margin-left: 7px;
   }
 `;
 

@@ -24,16 +24,19 @@ export const Info = styled.p`
 export const ContainerIcons = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 10px;
 `;
 
 export const Link = styled.a`
   color: #404040;
-  margin-left: 5px;
-  margin-right: 5px;
+  margin: 6px;
   font-size: 25px;
   &:hover {
     font-size: 30px;
+    margin: 1px;
+    margin-left: 4px;
+    margin-right: 3px;
     color: #3c5064;
     cursor: pointer;
   }

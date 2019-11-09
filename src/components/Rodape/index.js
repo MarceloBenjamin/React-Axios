@@ -30,7 +30,7 @@ export default function Rodape() {
         <Link>
           <FaFacebookMessenger />
         </Link>
-        <Link>
+        <Link href="https://www.linkedin.com/feed/" target="_blank">
           <FaLinkedin />
         </Link>
         <Link>

@@ -17,9 +17,11 @@ import {
 } from "./styles";
 
 import Rodape from "../../components/Rodape/index";
+import Search from "../../components/Search/index";
 
 export default function Main() {
   const [paises, setPaises] = useState([]);
+  const [search, setSearch] = useState("");
 
   useEffect(() => {
     const response = axios
@@ -35,6 +37,7 @@ export default function Main() {
       <SubTitle>
         Nesta lista contém o nome, a bandeira e o nome nativo dos países.
       </SubTitle>
+      <Search />
       <FlexGrid>
         {paises.map((country, index) => (
           <Box key={index}>
