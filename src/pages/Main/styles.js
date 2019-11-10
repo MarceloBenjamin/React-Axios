@@ -90,9 +90,10 @@ export const SubTexto = styled.p`
 
 export const Imagem = styled.img`
   flex-grow: 1;
-  width: 80%;
+  width: auto;
   height: auto;
-  max-height: 50%;
+  max-height: 45%;
+  max-width: 90%;
   border: 1px;
   border-style: solid;
   border-color: #fff;

@@ -27,19 +27,16 @@ export default function Rodape() {
         >
           <FaWhatsapp />
         </Link>
-        <Link>
-          <FaFacebookMessenger />
-        </Link>
         <Link href="https://www.linkedin.com/feed/" target="_blank">
           <FaLinkedin />
         </Link>
-        <Link>
+        <Link href="https://github.com/MarceloBenjamin" target="_blank">
           <FaGithub />
         </Link>
-        <Link>
+        <Link href="https://www.behance.net/marcelobenjamin" target="_blank">
           <FaBehance />
         </Link>
-        <Link>
+        <Link href="mailto:marcelo.dfx@gmail.com" target="_blank">
           <MdEmail />
         </Link>
       </ContainerIcons>
